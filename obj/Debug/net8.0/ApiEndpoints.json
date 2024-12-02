@@ -1,0 +1,53 @@
+[
+  {
+    "ContainingType": "cb.Controllers.StoreController",
+    "Method": "Add",
+    "RelativePath": "api/Store",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "phone",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "logo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner",
+        "Type": "cb.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cb.Controllers.StoreController",
+    "Method": "Get",
+    "RelativePath": "api/Store",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
