@@ -2,11 +2,11 @@
 
 namespace cb.Infrastructure
 {
-	public class ServicesRepository : IServicesRepository
+	public class ServiceRepository : IServiceRepository
 	{
 		private readonly ConnectionContext _context;
 
-		public ServicesRepository(ConnectionContext context)
+		public ServiceRepository(ConnectionContext context)
 		{
 			_context = context;
 		}

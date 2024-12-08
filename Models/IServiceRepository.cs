@@ -1,6 +1,6 @@
 ﻿namespace cb.Models
 {
-	public interface IServicesRepository
+	public interface IServiceRepository
 	{
 		void Add(Service service);
 		List<Service> Get();

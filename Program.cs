@@ -13,7 +13,7 @@ builder.Services.AddDbContext<ConnectionContext>(options =>
 
 builder.Services.AddScoped<IStoreRepository, StoreRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IServicesRepository, ServicesRepository>();
+builder.Services.AddScoped<IServiceRepository, ServiceRepository>();
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 
 var app = builder.Build();
